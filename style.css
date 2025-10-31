@@ -99,16 +99,18 @@ html {
   background-size:cover;
 }
 
-/* trying this */
+/* not sure what this changes. returning 50 px to 25x margin */
 
 body {
   max-width:800px;
-  margin:50px auto;
+  margin:25px auto;
 }
 
+/* now trying this because it seems to adjust all of them. adjust .8 to .7 and 25px padding to 50px  */
+
 header, #content, footer { 
-  background: rgba(0,0,0,.8); 
-  padding:25px;
+  background: rgba(0,0,0,.7); 
+  padding:50px;
   color:#FFFFFF; 
 }
 
