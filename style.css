@@ -17,10 +17,11 @@ body {
 /**
  * Links
  */
+
 a {
   font-weight: normal;
   text-decoration: none; 
-  color:#EF6D3D;
+  color:#E87537;
 }
 a:focus {
   outline: thin dotted;
@@ -92,21 +93,27 @@ blockquote p:last-child {
 
 /* Full size background image */
 html, #container, .inner { background-color:transparent;}
+
 html {
   background:url(background.jpg) center center no-repeat fixed;
   background-size:cover;
 }
+
 body {
-  max-width:800px;
+  max-width:1000px;
   margin:25px auto;
 }
+
 header, #content, footer { 
   background: rgba(0,0,0,.8); 
   padding:25px;
   color:#FFFFFF; 
 }
+
+/* iframe = bridge between the menu links (menu/TPR, etc.) and the header for the page */
+
 iframe {
-  max-width:120%;
+  max-width:100%;
 }
 
 /* Menu Links */
