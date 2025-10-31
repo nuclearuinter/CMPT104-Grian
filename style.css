@@ -109,7 +109,7 @@ body {
 /* now trying this because it seems to adjust all of them. adjust .8 to .7 and 25px padding to 50px  */
 
 header, #content, footer { 
-  background: rgba(0,0,0,.7); 
+  background: rgba(0,0,0,.8); 
   padding:25px;
   color:#FFFFFF; 
 }
@@ -117,7 +117,7 @@ header, #content, footer {
 /* iframe = how tall the section is between the menu links (menu/TPR, etc.) and the header for the page */
 
 iframe {
-  max-width:100%;
+  max-width:50%;
 }
 
 /* Menu Links */
