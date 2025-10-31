@@ -117,7 +117,7 @@ header, #content, footer {
 /* iframe = how tall the section is between the menu links (menu/TPR, etc.) and the header for the page */
 
 iframe {
-  max-width:50%;
+  max-width:25%;
 }
 
 /* Menu Links */
