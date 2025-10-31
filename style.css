@@ -11,7 +11,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #FFFFFF;
+  color: #CBD7FF;
 }
 
 /**
@@ -106,7 +106,7 @@ header, #content, footer {
   color:#FFFFFF; 
 }
 iframe {
-  max-width:100%;
+  max-width:120%;
 }
 
 /* Menu Links */
